@@ -1,0 +1,13 @@
+.movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-left:65px ;
+}
+.btn{
+  /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+ padding: 5px;
+
+}

@@ -1,0 +1,19 @@
+.header {
+    height: 50px;
+    background: mediumpurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: larger;
+    /*position: fixed;*/
+    width: 100%;
+}
+.header a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+.header a [class='active']{
+    color:indigo;
+}
